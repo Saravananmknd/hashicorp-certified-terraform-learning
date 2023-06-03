@@ -12,3 +12,5 @@ output "ec2_publicdns" {
   description = "Public DNS URL of an EC2 Instance"
   value = aws_instance.my-ec2-vm.*.public_dns
 }
+
+# the * in the value helps to give IPs of all EC2 instance created with for-each and count
