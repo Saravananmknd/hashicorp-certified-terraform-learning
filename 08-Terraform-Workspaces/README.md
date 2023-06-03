@@ -75,7 +75,7 @@ Observation:
 terraform workspace new dev
 
 # Verify the folder
-cd terraform.tfstate.d 
+cd terraform.tfstate.d - d for directory 
 cd dev
 ls
 cd ../../
